@@ -9,6 +9,7 @@ const App = () => {
         <Link to={"/"}>
           <img src={logo} alt="logo" className="w-28 object-contain" />
         </Link>
+        <p className=" font-bold text-2xl text-[#5156e8]">CreativeVisions</p>
         <Link
           to={"/create-post"}
           className="font-inter font-medium bg-[#6469ff] px-4 py-2 rounded-md text-white"
